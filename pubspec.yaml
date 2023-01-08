@@ -1,0 +1,19 @@
+name: hardware_buttons
+description: A new Flutter plugin project.
+version: 0.0.1
+homepage: "TODO"
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.cognitionis.hardware_buttons
+        pluginClass: HardwareButtonsPlugin
